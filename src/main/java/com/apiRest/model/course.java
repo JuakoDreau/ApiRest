@@ -10,7 +10,7 @@ public class course {
 	@Id
 	private Integer code;
 	
-	@Column(length = 15)
+	@Column(length = 100)
 	private String name;
 
 	public Integer getCode() {
